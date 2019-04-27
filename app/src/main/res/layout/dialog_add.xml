@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_label"
+            android:layout_weight=".05"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp"/>
+
+        <EditText
+            android:id="@+id/name"
+            android:inputType="text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight=".85"
+            android:hint="@string/name_placeholder" />
+
+        <ImageButton
+            android:id="@+id/btn_web"
+            android:src="@drawable/ic_baseline_public_24px"
+            android:layout_width="wrap_content"
+            android:layout_weight=".1"
+            android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/url_label"
+            android:textSize="18sp"
+            android:layout_weight=".05"
+            android:layout_marginTop="5dp" />
+
+        <EditText
+            android:id="@+id/url"
+            android:layout_weight=".95"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="4dp"
+            android:hint="@string/url_placeholder"
+            android:inputType="text" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</LinearLayout>

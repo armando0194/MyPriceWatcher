@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "919269070513",
+    "firebase_url": "https://price-watcher-ac9c0.firebaseio.com",
+    "project_id": "price-watcher-ac9c0",
+    "storage_bucket": "price-watcher-ac9c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919269070513:android:5ebda244afd6ef19",
+        "android_client_info": {
+          "package_name": "cs4330.cs.utep.edu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919269070513-1h5338ll4jbg3c3skam1f0vq2ivl0qra.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cs4330.cs.utep.edu",
+            "certificate_hash": "c46865c49a642165f3e8091ba3ba762bc7698ffe"
+          }
+        },
+        {
+          "client_id": "919269070513-gelr240eh7gbelv7l8m1364l4e5r7dat.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Kchde0qB6-5wgaEiDaVYNAe1S7A9cRo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919269070513-gelr240eh7gbelv7l8m1364l4e5r7dat.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

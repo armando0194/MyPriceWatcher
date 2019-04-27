@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Price Watcher</string>
+    <string name="name_label">Name:</string>
+    <string name="initial_price_label">Initial Price:</string>
+    <string name="price_label">Price:</string>-
+    <string name="url_label">URL:</string>
+    <string name="current_price">Current Price:</string>
+    <string name="percentage_change">Percentage Change:</string>
+    <string name="refresh">Refresh</string>
+
+    <string name="name_placeholder">Name</string>
+    <string name="url_placeholder">Url</string>
+    <string name="price_placeholder">Price</string>
+
+    <string name="ok_btn_label">Ok</string>
+    <string name="cancel_btn_label">Cancel</string>
+    <string name="error_required">All fields are required</string>
+    <string name="title_activity_watchlist">WatchlistActivity</string>
+
+    <string name="snack_bar_undo">Undo</string>
+    <string name="action_search">Enter keyword</string>
+    <string name="snack_bar_undo_text">1 Item Deleted</string>
+
+    <string name="filter_name">Name</string>
+    <string name="filter_store">Store</string>
+
+    <string name="custom_tab_add">Add Item</string>
+
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+
+    <string name="sign_in">Sign in</string>
+    <string name="log_out">Log Out</string>
+
+    <string name="delete">Delete</string>
+    <string name="register">Register</string>
+    <string name="forgot_password">Forgot password?</string>
+
+
+</resources>
